@@ -33,16 +33,16 @@
 
         <!-- pobieranie tabeli A B C z liczbą zwracanych serii -->
         <div class="templetButton">
-            <p class="opis">Klikając w przycisk pobierzesz kurs walut z dnia wraz poprzedzającymi dniami których liczbę
-                wybierzesz w poniższym selecie</p>
-            <select class="form-control" >
-                <option value="1">Ilości 1</option>
-                <option value="2">Ilości 2</option>
-                <option value="3">Ilości 3</option>
-                <option value="4">Ilości 4</option>
-                <option value="5">Ilości 5</option>
+            <p class="opis">Klikając w przycisk pobierzesz kurs walut z dnia, wraz poprzedzającymi dniami, których liczbę
+                wybierzesz w poniższym selectcie</p>
+            <select class="form-control" id="selectTopCount">
+                <option value="1">Ilość 1</option>
+                <option value="2">Ilość 2</option>
+                <option value="3">Ilość 3</option>
+                <option value="4">Ilość 4</option>
+                <option value="5">Ilość 5</option>
             </select>
-            <button type="button" class="btn btn-primary mainBtn">get Data</button>
+            <button type="button" class="btn btn-primary mainBtn" onclick="handleTopCount()">get Data</button>
         </div>
         <!-- pobieranie tabeli A B C z liczbą zwracanych serii -->
 
@@ -80,7 +80,7 @@
                     </select>
             
             
-            <button type="button" class="btn btn-primary mainBtn">get Data</button>
+            <button type="button" class="btn btn-primary mainBtn" onclick="getOneCoin()">get Data</button>
         
         
         </div>
@@ -98,7 +98,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- <script src="main.js"></script> -->
     <script src="main2.js"></script>

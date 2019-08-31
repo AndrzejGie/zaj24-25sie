@@ -41,3 +41,7 @@
     bottom: 0;
     right: 0;
 }
+hr {
+    height: 5px;
+    background-color: red;
+}
